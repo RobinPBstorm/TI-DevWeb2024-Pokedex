@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script/pokedex.js" defer></script>
+  <script src="script/main.js" defer></script>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="bord" id="partieSupperieure">
+    <svg width="100%" height="75" viewBox="0 0 1 35" >
+      <path d="M -500 35 L -25 35 a 25.5 25.5 0 0 1 50 0 L 500 35" stroke="white" stroke-weight="1px" />
+    </svg>
+  </div>
+  <div class="centre" id="contenuPokedex">
+    <div id="selectionPokemon">
+      <canvas id="flecheGauche" height="80" width="80"></canvas>
+      <h1 id="nomPokemon">placeholder</h1>
+      <canvas id="flecheDroite" height="80" width="80"></canvas>
+    </div>
+    <div id="informationPrincipale">
+      <div id="imagePokemon"></div>
+      <div id="informationPokemon"></div>
+    </div>
+    <div id="informationSupplementaire"></div>
+  </div>
+  <div class="bord" id="partieInferieure">
+    <svg width="100%" height="75" viewBox="0 0 1 35" >
+      <path d="M -500 0 L -25 0 a 25.5 25.5 0 0 0 50 0 L 500 0" stroke="white" stroke-weight="5px" />
+    </svg>
+  </div>
+</body>
+</html>

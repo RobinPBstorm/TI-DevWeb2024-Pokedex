@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.flou {
+  filter:blur(15px);
+}
+.bord {
+  min-height:15vh;
+}
+
+.centre {
+  min-height:70vh;
+  z-index: 1;
+  width: 100%;
+}
+
+#partieSupperieure {
+  display: flex;
+  align-items: flex-end;
+}
+
+/*selection*/
+#selectionPokemon {
+  display: flex;
+  justify-content: space-between;
+}
+
+#informationPrincipale {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+  padding-bottom: 10px;
+}
+#imagePokemon,
+#informationPokemon {
+  border-radius: 25px;
+  min-height:15vh;
+}
+#imagePokemon {
+  display: flex;
+  justify-content: center;
+  width: 29vw;
+}
+.information {
+  display: flex; 
+}
+.ligneInformation{
+  display: flex; 
+  justify-content: center;
+}
+.ligneInformation :not(:first-child){
+  margin-left: 20px;
+}
+#imagePokemon img {
+  image-rendering: pixelated; /*no blur*/
+  width: min-content;
+}
+#informationPokemon {
+  padding: 5px;
+  width: 58vw;
+  padding: 15px;
+}
+#informationPokemon * {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#informationSupplementaire {
+  min-height:15vh;
+  min-width: 100%;
+  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* color */
+#contenuDessinHaut,
+#contenuDessinBas{
+  background-color: red;
+}
+#informationSupplementaire {
+  background-color: lightgrey;
+}
+#imagePokemon,
+#informationPokemon {
+  background-color: rgb(160,230,255);
+}
+.bord {
+  background-color: rgb(255,15,15);
+}
+
+.centre {
+  background-color: rgb(135,230,255);
+}

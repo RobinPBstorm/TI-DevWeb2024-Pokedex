@@ -1,0 +1,1 @@
+let monPokedex = new pokedex();
